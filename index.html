@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="IEEE ITSC 2026 tutorial on OpenADS, OpenADServices, OpenADStack, OpenADSim, OpenADSuite, and benchmark-driven evaluation."
+    />
+    <title>OpenADS Tutorial | IEEE ITSC 2026</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;family=Sora:wght@600;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="brand" href="#top">OpenADS Tutorial</a>
+        <div class="nav-links">
+          <a href="#openads">OpenADS</a>
+          <a href="#tutorial">Tutorial</a>
+          <a href="#program">Program</a>
+          <a href="#setup">Setup</a>
+          <a href="#organizers">Organizers</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">IEEE ITSC 2026 Tutorial</p>
+          <h1>OpenADS Tutorial</h1>
+          <div class="event-meta" aria-label="Event details">
+            <div class="event-meta-item">
+              <span class="event-meta-label">Date</span>
+              <span class="event-meta-value">15 September 2026</span>
+            </div>
+            <div class="event-meta-item">
+              <span class="event-meta-label">Location</span>
+              <span class="event-meta-value">Naples, Italy</span>
+            </div>
+            <a
+              class="event-meta-link"
+              href="https://ieee-itsc.org/2026/"
+              target="_blank"
+              rel="noopener"
+            >
+              <span class="event-meta-label">Registration</span>
+              <span class="event-meta-value">ieee-itsc.org/2026</span>
+            </a>
+          </div>
+          <div class="hero-meta" aria-label="Tutorial key facts">
+            <span>2.5 Hours</span>
+            <span>Hands-On Experience</span>
+            <span>Contribution Process</span>
+          </div>
+          <div class="cta-row">
+            <a class="button button-primary" href="#program">View Program</a>
+          </div>
+        </div>
+        <div class="hero-motivation">
+          <h2>Collaborative development and benchmark-driven evaluation.</h2>
+          <p>
+            OpenADS explores how distributed partners can build compatible
+            automated driving services and use benchmarks to identify stronger
+            system compositions.
+          </p>
+          <p>
+            The work is embedded in Germany's
+            <a href="https://ecosystemmobility40.de/en/home/" target="_blank" rel="noopener">
+              Ecosystem Mobility 4.0
+            </a>
+            initiative and aligned with the European
+            <a href="https://digital-strategy.ec.europa.eu/en/policies/vehicle-alliance" target="_blank" rel="noopener">
+              Connected and Autonomous Vehicle Alliance
+            </a>.
+          </p>
+        </div>
+      </section>
+
+      <section id="openads" class="band">
+        <div class="section-grid">
+          <div>
+            <p class="section-kicker">What is OpenADS?</p>
+            <h2>An open ecosystem for Automated Driving Systems.</h2>
+          </div>
+          <div class="section-copy">
+            <p>
+              OpenADS is a collaborative, open-source ecosystem for Automated
+              Driving Systems.
+            </p>
+            <div class="openads-family" aria-label="OpenADS ecosystem features">
+              <ul class="feature-list">
+                <li><strong class="openad-name"><span>OpenAD</span><span class="openad-variant">Stack</span></strong> connects multiple services into a runnable AD stack.</li>
+                <li><strong class="openad-name"><span>OpenAD</span><span class="openad-variant">Services</span></strong> are collaborative function-level modules.</li>
+                <li><strong class="openad-name"><span>OpenAD</span><span class="openad-variant">Sim</span></strong> supports simulation-driven scenario-based testing.</li>
+                <li><strong class="openad-name"><span>OpenAD</span><span class="openad-variant">Suite</span></strong> provides development tools.</li>
+                <li><strong class="openad-name"><span>OpenAD</span><span class="openad-variant">Showcases</span></strong> demonstrate real-world implementations.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <figure class="solution-visual">
+          <img
+            src="images/openads-lab-diagram.svg"
+            alt="OpenADS ecosystem diagram with OpenADServices, OpenADStack, OpenADSim, OpenADSuite, and benchmark-driven evaluation"
+          />
+        </figure>
+        <div class="design-grid" aria-label="OpenADS design principles">
+          <article class="design-card">
+            <h3>Microservice Architecture</h3>
+            <p>
+              ROS-package-level modules can be developed independently while
+              CI/CD keeps them integrated in the overall system.
+            </p>
+          </article>
+          <article class="design-card">
+            <h3>Containerization</h3>
+            <p>
+              Each module defines its dependencies and container image, so
+              developers can start work without running the full stack.
+            </p>
+          </article>
+          <article class="design-card">
+            <h3>Flexibility</h3>
+            <p>
+              Modular interfaces support evolving ADS architectures without
+              restructuring the entire system.
+            </p>
+          </article>
+          <article class="design-card">
+            <h3>Transparency</h3>
+            <p>
+              Open CI tests and benchmarks make contributed modules easier to
+              evaluate, compare, integrate, or remove.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="tutorial" class="band band-muted">
+        <div class="section-heading">
+          <p class="section-kicker">Tutorial focus</p>
+          <h2>Compact introduction</h2>
+          <h2>hands-on interaction,</h2>
+          <h2>and contribution path.</h2>
+          <p>
+            The tutorial explains why collaborative OpenADS development matters,
+            then moves into a 75-minute practical session with the reference
+            stack and benchmark-driven evaluation in simulation.
+          </p>
+        </div>
+        <div class="focus-grid">
+          <article class="focus-card">
+            <span class="step-number">01</span>
+            <h3>Motivation</h3>
+            <p>
+              Why shared interfaces, reusable services, and neutral evaluation
+              are needed for open AD systems.
+            </p>
+          </article>
+          <article class="focus-card">
+            <span class="step-number">02</span>
+            <h3>Hands-on session</h3>
+            <p>
+              Work with OpenADS, integrate OpenADServices, and run
+              benchmark-oriented OpenADSim workflows.
+            </p>
+          </article>
+          <article class="focus-card">
+            <span class="step-number">03</span>
+            <h3>How to contribute</h3>
+            <p>
+              Learn how services, code, benchmarks, and validation results can
+              become part of the OpenADS ecosystem.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="program" class="band band-muted">
+        <div class="section-heading">
+          <p class="section-kicker">Tentative 2.5-hour program</p>
+          <h2>09:00-11:30 tutorial agenda.</h2>
+        </div>
+        <div class="schedule" aria-label="Tutorial agenda">
+          <article class="schedule-row">
+            <time>09:00-09:10</time>
+            <div>
+              <h3>Welcome and Introduction</h3>
+              <p>Scope, learning objectives, and setup.</p>
+              <span>All organizers</span>
+            </div>
+          </article>
+          <article class="schedule-row">
+            <time>09:10-09:30</time>
+            <div>
+              <h3>Why Collaborative OpenADS Development?</h3>
+              <p>Motivation and system-level challenges.</p>
+              <span>All organizers</span>
+            </div>
+          </article>
+          <article class="schedule-row schedule-row-featured">
+            <time>09:30-10:45</time>
+            <div>
+              <h3>OpenADS Hands-On: Reference Implementation</h3>
+              <p>
+                Integrating OpenADServices into OpenADStack and evaluating them
+                with OpenADSim, OpenADSuite, and neutral benchmarks.
+              </p>
+              <span>
+                Raphael van Kempen and Christian Geller, RWTH Aachen University
+              </span>
+            </div>
+          </article>
+          <article class="schedule-row">
+            <time>10:45-11:05</time>
+            <div>
+              <h3>V&amp;V Activities and Homologation Perspective</h3>
+              <p>
+                Scenario-based V&amp;V, traceable evidence, and
+                homologation-oriented safety arguments for OpenADS.
+              </p>
+              <span>Dr.-Ing. Marc Ren&eacute; Zofka, FZI Forschungszentrum Informatik</span>
+            </div>
+          </article>
+          <article class="schedule-row">
+            <time>11:05-11:25</time>
+            <div>
+              <h3>From Code to Community</h3>
+              <p>Collaboration processes, governance, and contribution models.</p>
+              <span>Dr. Timo Woopen, Thinking Cars GmbH</span>
+            </div>
+          </article>
+          <article class="schedule-row">
+            <time>11:25-11:30</time>
+            <div>
+              <h3>Wrap-Up and Summary</h3>
+              <p>Lessons learned and next collaboration steps.</p>
+              <span>All organizers</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="setup" class="band">
+        <div class="section-grid">
+          <div>
+            <p class="section-kicker">Practical setup</p>
+            <h2>Bring curiosity and be ready to work with OpenADS.</h2>
+          </div>
+          <div class="section-copy">
+            <p>
+              The tutorial is designed for intensive participant interaction.
+              Motivation and collaboration talks frame the problem, but the
+              central value comes from working directly with the OpenADS
+              ecosystem.
+            </p>
+            <p>
+              The 2.5-hour format keeps the tutorial compact and focused:
+              a short setup, a motivation talk, a hands-on session, and
+              concise transfer discussions. If the local setup allows it,
+              participants can execute the OpenADS ecosystem live during the session.
+            </p>
+          </div>
+        </div>
+        <div class="info-grid">
+          <article class="info-card">
+            <h3>Target audience</h3>
+            <p>
+              Researchers, engineers, suppliers, and industry stakeholders
+              interested in OpenADS, supplier integration, service selection,
+              simulation-based evaluation, and pre-development validation.
+            </p>
+          </article>
+          <article class="info-card">
+            <h3>Industry value</h3>
+            <p>
+              Faster integration, more transparent software selection, and
+              reduced risk through reproducible cross-partner validation.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="organizers" class="band band-muted">
+        <div class="section-heading">
+          <p class="section-kicker">Organizing team</p>
+          <h2>Academic, research, and industry partners.</h2>
+        </div>
+        <div class="organizer-grid">
+          <article class="organizer-card">
+            <h3>Univ.-Prof. Dr.-Ing. Lutz Eckstein</h3>
+            <p>RWTH Aachen University</p>
+          </article>
+          <article class="organizer-card">
+            <h3>Prof. Dr.-Ing. J. Marius Z&ouml;llner</h3>
+            <p>FZI Forschungszentrum Informatik</p>
+          </article>
+          <article class="organizer-card">
+            <h3>Dr. Timo Woopen</h3>
+            <p>Thinking Cars GmbH</p>
+          </article>
+          <article class="organizer-card">
+            <h3>Raphael van Kempen</h3>
+            <p>RWTH Aachen University</p>
+          </article>
+          <article class="organizer-card">
+            <h3>Christian Geller</h3>
+            <p>RWTH Aachen University</p>
+          </article>
+          <article class="organizer-card">
+            <h3>Markus Zarbock</h3>
+            <p>Starwit Technologies GmbH</p>
+          </article>
+          <article class="organizer-card">
+            <h3>Dr.-Ing. Philip Sch&ouml;rner</h3>
+            <p>FZI Forschungszentrum Informatik</p>
+          </article>
+          <article class="organizer-card">
+            <h3>Dr.-Ing. Marc Ren&eacute; Zofka</h3>
+            <p>FZI Forschungszentrum Informatik</p>
+          </article>
+        </div>
+        <div class="logo-grid" aria-label="Organizing institutions">
+          <a class="logo-item" href="https://www.ika.rwth-aachen.de/de/" target="_blank" rel="noopener">
+            <img src="images/ika.svg" alt="Institute for Automotive Engineering, RWTH Aachen University" loading="lazy" />
+          </a>
+          <a class="logo-item" href="https://www.thinking-cars.de/" target="_blank" rel="noopener">
+            <img src="images/tc.svg" alt="Thinking Cars GmbH" loading="lazy" />
+          </a>
+          <a class="logo-item" href="https://www.fzi.de/" target="_blank" rel="noopener">
+            <img src="images/fzi.png" alt="FZI Forschungszentrum Informatik" loading="lazy" />
+          </a>
+          <a class="logo-item" href="https://starwit-technologies.de/" target="_blank" rel="noopener">
+            <img src="images/starwit.png" alt="Starwit Technologies" loading="lazy" />
+          </a>
+        </div>
+      </section>
+
+      <section id="contact" class="band contact-band">
+        <div>
+          <p class="section-kicker">Contact</p>
+          <h2>Questions about OpenADS or the tutorial?</h2>
+          <p>
+            Reach the organizing team at
+            <a class="contact-link" href="mailto:opensource@ika.rwth-aachen.de">
+              opensource@ika.rwth-aachen.de
+            </a>.
+          </p>
+        </div>
+        <a class="button button-primary" href="mailto:opensource@ika.rwth-aachen.de">
+          Contact by email
+        </a>
+      </section>
+
+    </main>
+
+    <footer class="footer">
+      <p>
+        OpenADS Tutorial - IEEE International Conference on
+        Intelligent Transportation Systems 2026
+      </p>
+    </footer>
+  </body>
+</html>
