@@ -80,7 +80,7 @@ remove.
 | 11:40-12:00 | Presentation | Why Collaborative [OpenADS](https://openads-project.github.io/) Development? Motivation and system-level challenges | All organizers |
 | 12:00-12:30 | Presentation | [OpenADS](https://openads-project.github.io/) Reference Architecture: how [OpenADServices](https://openads-project.github.io/), [OpenADStack](https://github.com/openads-project/openadstack), [OpenADSim](https://github.com/openads-project/openadsim), and [OpenADSuite](https://openads-project.github.io/) work together | [OpenADS](https://openads-project.github.io/) organizing team |
 | 12:30-12:40 | Ecosystem Application | Harmonized Data as Enabler for Development and Testing | FZI Forschungszentrum Informatik |
-| 12:40-12:50 | Ecosystem Application | Transparent Benchmarking for Qualification of OSS | Thinking Cars GmbH |
+| 12:40-12:50 | Ecosystem Application | Benchmark-driven Qualification of OSS-Modules | Thinking Cars GmbH |
 | 12:50-13:00 | Ecosystem Application | Fleet Management in Practice | Starwit Technologies GmbH |
 | 13:00-14:00 | Break | Lunch Break | — |
 | 14:00-14:50 | Hands-On Experience | Integrating [OpenADServices](https://openads-project.github.io/) into [OpenADStack](https://github.com/openads-project/openadstack) and evaluating them with [OpenADSim](https://github.com/openads-project/openadsim), [OpenADSuite](https://openads-project.github.io/), and neutral benchmarks | Raphael van Kempen and Christian Geller, RWTH Aachen University |

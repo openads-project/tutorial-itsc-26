@@ -77,7 +77,7 @@ Participants leave with a concrete blueprint for collaborative development and b
     table.hline(start: 0, stroke: 0.25pt),
     [12:40-12:50],
     [Ecosystem Application (10 min)],
-    [Benchmarking for Reliable Validation],
+    [Benchmark-driven Qualification of OSS-Modules],
     [Thinking Cars GmbH],
 
     table.hline(start: 0, stroke: 0.25pt),
