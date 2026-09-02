@@ -32,15 +32,15 @@ Participants leave with a concrete blueprint for collaborative development and b
 
 \
 = Key Facts
-- 2.5-hour tutorial in two blocks, with a one-hour lunch break.
+- Half-day tutorial with an optional full-day extension.
 - Intensive hands-on interaction with the open automated driving reference framework.
 - Participants explore how modules from different partners can be integrated and comparatively evaluated.
-- Motivation, architecture, and ecosystem applications frame the hands-on session.
+- Motivation and collaboration talks serve to frame the introduction to the system.
 - Industry relevance with practical orientation for supplier integration, module selection, and pre-development validation.
 - Optional on-site demonstration: participants may experience the reference stack in a research vehicle.
 \
 \
-= Tentative Program (11:30-13:00 and 14:00-15:00)
+= Tentative Program (Half-Day Tutorial, 08:30-12:00)
 #figure(
   table(
     columns: (auto, auto, auto, auto),
@@ -51,55 +51,31 @@ Participants leave with a concrete blueprint for collaborative development and b
     table.header[*Time*][*Session*][*Title*][*Presenter(s)*],
     table.hline(start: 0, stroke: 1.0pt),
 
-    [11:30-11:40],
+    [08:30-08:40],
     [Welcome and Introduction],
     [Scope, Learning Objectives, and Setup],
     [All Organizers],
 
     table.hline(start: 0, stroke: 0.25pt),
-    [11:40-12:00],
-    [Presentation (20 min)],
-    [Why Collaborative #link("https://openads-project.github.io/")[OpenADS] Development? Motivation and System-Level Challenges],
-    [All Organizers],
-
-    table.hline(start: 0, stroke: 0.25pt),
-    [12:00-12:30],
+    [08:40-09:10],
     [Presentation (30 min)],
-    [#link("https://openads-project.github.io/")[OpenADS] Reference Architecture: How #link("https://openads-project.github.io/")[OpenADServices], #link("https://github.com/openads-project/openadstack")[OpenADStack], #link("https://github.com/openads-project/openadsim")[OpenADSim], and #link("https://openads-project.github.io/")[OpenADSuite] Work Together],
-    [#link("https://openads-project.github.io/")[OpenADS] Organizing Team],
+    [Why Collaborative Open AD Development? Motivation and System-Level Challenges],
+    [Univ.-Prof. Dr.-Ing. Lutz Eckstein (RWTH Aachen University)],
 
     table.hline(start: 0, stroke: 0.25pt),
-    [12:30-12:40],
-    [Ecosystem Application (10 min)],
-    [Data Foundations for Development and Testing],
-    [FZI Forschungszentrum Informatik],
-
-    table.hline(start: 0, stroke: 0.25pt),
-    [12:40-12:50],
-    [Ecosystem Application (10 min)],
-    [Benchmark-driven Qualification of OSS-Modules],
-    [Thinking Cars GmbH],
-
-    table.hline(start: 0, stroke: 0.25pt),
-    [12:50-13:00],
-    [Ecosystem Application (10 min)],
-    [Fleet Management in Practice],
-    [Starwit Technologies GmbH],
-
-    table.hline(start: 0, stroke: 0.25pt),
-    [13:00-14:00],
-    [Break],
-    [Lunch Break],
-    [—],
-
-    table.hline(start: 0, stroke: 0.25pt),
-    [14:00-14:50],
-    [Hands-On Experience (50 min)],
-    [Integrating #link("https://openads-project.github.io/")[OpenADServices] into #link("https://github.com/openads-project/openadstack")[OpenADStack] and Evaluating Them with #link("https://github.com/openads-project/openadsim")[OpenADSim], #link("https://openads-project.github.io/")[OpenADSuite], and Neutral Benchmarks],
+    [09:10-11:10],
+    [Hands-On Experience (2 h)],
+    [Reference Implementation Lab: Modular Integration and Neutral Benchmarking Across Partner Modules],
     [Raphael van Kempen (RWTH Aachen University), Christian Geller (RWTH Aachen University)],
 
     table.hline(start: 0, stroke: 0.25pt),
-    [14:50-15:00],
+    [11:10-11:40],
+    [Presentation (30 min)],
+    [From Code to Community: Collaboration Processes, Governance, and Contribution Models],
+    [Timo Woopen (Thinking Cars GmbH)],
+
+    table.hline(start: 0, stroke: 0.25pt),
+    [11:40-12:00],
     [Wrap-Up and Summary],
     [Lessons Learned and Next Collaboration Steps],
     [All Organizers],
