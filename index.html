@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="IEEE ITSC 2026 tutorial on OpenADS, OpenADServices, OpenADStack, OpenADSim, OpenADSuite, and benchmark-driven evaluation."
+      content="IEEE ITSC 2026 tutorial on OpenADS, OpenADServices, OpenADStack, OpenADSim, OpenADSuite, and OpenADSafety."
     />
     <title>OpenADS Tutorial | IEEE ITSC 2026</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -62,6 +62,7 @@
           </div>
           <div class="cta-row">
             <a class="button button-primary" href="#program">View Program</a>
+            <a class="button button-secondary" href="https://openads-project.github.io/" target="_blank" rel="noopener">OpenADS Documentation</a>
           </div>
         </div>
         <div class="hero-motivation">
@@ -99,19 +100,19 @@
             </p>
             <div class="openads-family" aria-label="OpenADS ecosystem features">
               <ul class="feature-list">
-                <li><a class="project-link" href="https://github.com/openads-project/openadstack" target="_blank" rel="noopener"><strong class="openad-name"><span>OpenAD</span><span class="openad-variant">Stack</span></strong></a> connects multiple services into a runnable AD stack.</li>
-                <li><a class="project-link" href="https://openads-project.github.io/" target="_blank" rel="noopener"><strong class="openad-name"><span>OpenAD</span><span class="openad-variant">Services</span></strong></a> are collaborative function-level modules.</li>
-                <li><a class="project-link" href="https://github.com/openads-project/openadsim" target="_blank" rel="noopener"><strong class="openad-name"><span>OpenAD</span><span class="openad-variant">Sim</span></strong></a> supports simulation-driven scenario-based testing.</li>
-                <li><a class="project-link" href="https://openads-project.github.io/" target="_blank" rel="noopener"><strong class="openad-name"><span>OpenAD</span><span class="openad-variant">Suite</span></strong></a> provides development tools.</li>
-                <li><a class="project-link" href="https://openads-project.github.io/" target="_blank" rel="noopener"><strong class="openad-name"><span>OpenAD</span><span class="openad-variant">Safety</span></strong></a> ensures the safe operation of ADS.</li>
+                <li><a class="project-link" href="https://github.com/openads-project/openadstack" target="_blank" rel="noopener"><strong class="openad-name"><span>OpenAD</span><span class="openad-variant">Stack</span></strong></a> is the modular ROS 2 reference implementation of an automated driving stack.</li>
+                <li><a class="project-link" href="https://openads-project.github.io/openadstack/openadstack/docs/functional-architecture.html#functional-modules-openadservices" target="_blank" rel="noopener"><strong class="openad-name"><span>OpenAD</span><span class="openad-variant">Services</span></strong></a> are reusable modules for localization, perception, understanding, planning, and control.</li>
+                <li><a class="project-link" href="https://github.com/openads-project/openadsim" target="_blank" rel="noopener"><strong class="openad-name"><span>OpenAD</span><span class="openad-variant">Sim</span></strong></a> provides closed-loop simulation and scenario-based testing with CARLA or SUMO.</li>
+                <li><a class="project-link" href="https://openads-project.github.io/openadsuite/openadsuite.html" target="_blank" rel="noopener"><strong class="openad-name"><span>OpenAD</span><span class="openad-variant">Suite</span></strong></a> provides tools and templates that streamline development workflows.</li>
+                <li><a class="project-link" href="https://openads-project.github.io/openadsafety/openadsafety.html" target="_blank" rel="noopener"><strong class="openad-name"><span>OpenAD</span><span class="openad-variant">Safety</span></strong></a> is developing benchmarks and tools for verification and validation.</li>
               </ul>
             </div>
           </div>
         </div>
         <figure class="solution-visual">
           <img
-            src="images/openads-lab-diagram.svg"
-            alt="OpenADS ecosystem diagram with OpenADServices, OpenADStack, OpenADSim, OpenADSuite, and benchmark-driven evaluation"
+            src="images/openads-diagram.svg"
+            alt="OpenADS ecosystem diagram with OpenADServices, OpenADStack, OpenADSim, OpenADSuite, and OpenADSafety"
           />
         </figure>
         <div class="design-grid" aria-label="OpenADS design principles">
@@ -165,7 +166,7 @@
             <span class="step-number">01</span>
             <h3>Motivation</h3>
             <p>
-              Why shared interfaces, reusable services, and neutral evaluation
+              Why shared interfaces, reusable services, and reproducible evaluation
               are needed for open AD systems.
             </p>
           </article>
@@ -173,9 +174,8 @@
             <span class="step-number">02</span>
             <h3>Architecture and applications</h3>
             <p>
-              Connect the
-              <a class="project-link" href="https://openads-project.github.io/" target="_blank" rel="noopener">OpenADS</a>
-              reference architecture to data, benchmarking, and fleet-management
+              Relate functional architecture, integration architecture, and
+              deployment composition to data, validation, and fleet-management
               use cases.
             </p>
           </article>
@@ -183,13 +183,12 @@
             <span class="step-number">03</span>
             <h3>Hands-on session</h3>
             <p>
-              Work with
-              <a class="project-link" href="https://openads-project.github.io/" target="_blank" rel="noopener">OpenADS</a>,
-              integrate
-              <a class="project-link" href="https://openads-project.github.io/" target="_blank" rel="noopener">OpenADServices</a>,
-              and run benchmark-oriented
+              Take a guided tour through the core
+              <a class="project-link" href="https://openads-project.github.io/" target="_blank" rel="noopener">OpenADS</a>
+              repositories and then run
               <a class="project-link" href="https://github.com/openads-project/openadsim" target="_blank" rel="noopener">OpenADSim</a>
-              workflows.
+              before exploring scenario-based execution, module benchmarking,
+              and metric calculation with an initial focus on perception.
             </p>
           </article>
         </div>
@@ -224,7 +223,7 @@
                 <a class="project-link" href="https://openads-project.github.io/" target="_blank" rel="noopener">OpenADS</a>
                 development across research and industry.
               </p>
-              <span>Timo Woopen</span>
+              <span>Timo Woopen, Thinking Cars GmbH</span>
             </div>
           </article>
           <article class="schedule-row">
@@ -232,15 +231,14 @@
             <div>
               <h3><a class="project-link" href="https://openads-project.github.io/" target="_blank" rel="noopener">OpenADS</a> Reference Architecture</h3>
               <p>
-                How
-                <a class="project-link" href="https://openads-project.github.io/" target="_blank" rel="noopener">OpenADServices</a>,
-                <a class="project-link" href="https://github.com/openads-project/openadstack" target="_blank" rel="noopener">OpenADStack</a>,
-                <a class="project-link" href="https://github.com/openads-project/openadsim" target="_blank" rel="noopener">OpenADSim</a>,
-                and
-                <a class="project-link" href="https://openads-project.github.io/" target="_blank" rel="noopener">OpenADSuite</a>
-                work together as a modular development and evaluation environment.
+                Functional architecture, integration architecture, and deployment
+                composition: how reusable
+                <a class="project-link" href="https://openads-project.github.io/openadstack/openadstack/docs/functional-architecture.html#functional-modules-openadservices" target="_blank" rel="noopener">OpenADServices</a>
+                are assembled into the modular ROS 2
+                <a class="project-link" href="https://github.com/openads-project/openadstack" target="_blank" rel="noopener">OpenADStack</a>
+                and embedded in vehicle or simulation setups.
               </p>
-              <span>Raphael van Kempen</span>
+              <span>Raphael van Kempen, Thinking Cars GmbH</span>
             </div>
           </article>
           <article class="schedule-row">
@@ -251,15 +249,15 @@
               <ul class="ecosystem-examples">
                 <li>
                   <strong>Data Foundations for Development and Testing</strong>
-                  <span>12:20-12:30 &middot; FZI Forschungszentrum Informatik</span>
+                  <span>FZI Forschungszentrum Informatik</span>
                 </li>
                 <li>
                   <strong>Benchmarking for Reliable Validation</strong>
-                  <span>12:30-12:50 &middot; Thinking Cars GmbH</span>
+                  <span>Thinking Cars GmbH</span>
                 </li>
                 <li>
                   <strong>Fleet Management in Practice</strong>
-                  <span>12:50-13:00 &middot; Starwit Technologies GmbH</span>
+                  <span>Starwit Technologies GmbH</span>
                 </li>
               </ul>
             </div>
@@ -275,17 +273,18 @@
             <div>
               <h3><a class="project-link" href="https://openads-project.github.io/" target="_blank" rel="noopener">OpenADS</a> Hands-On</h3>
               <p>
-                Integrating
-                <a class="project-link" href="https://openads-project.github.io/" target="_blank" rel="noopener">OpenADServices</a>
-                into
-                <a class="project-link" href="https://github.com/openads-project/openadstack" target="_blank" rel="noopener">OpenADStack</a>
-                and evaluating them with
-                <a class="project-link" href="https://github.com/openads-project/openadsim" target="_blank" rel="noopener">OpenADSim</a>,
-                <a class="project-link" href="https://openads-project.github.io/" target="_blank" rel="noopener">OpenADSuite</a>,
-                and neutral benchmarks.
+                A guided tour through the core
+                <a class="project-link" href="https://openads-project.github.io/" target="_blank" rel="noopener">OpenADS</a>
+                repositories and their relationships, followed by running and exploring
+                <a class="project-link" href="https://github.com/openads-project/openadsim" target="_blank" rel="noopener">OpenADSim</a>.
+                Building on this, participants are introduced to
+                <a class="project-link" href="https://openads-project.github.io/openadsim/openadsim/docs/example-scenario-execution.html" target="_blank" rel="noopener">scenario-based execution</a>
+                and learn how modules can be benchmarked by calculating metrics,
+                starting with publicly available perception modules and
+                evaluation examples.
               </p>
               <span>
-                Christian Geller, RWTH Aachen University
+                Christian Geller, RWTH Aachen University<br>
                 Raphael van Kempen, Thinking Cars GmbH
               </span>
             </div>
@@ -318,6 +317,16 @@
               The 2.5-hour format keeps the tutorial compact and focused:
               a short setup, a motivation talk, an architecture overview,
               practical application examples, and a hands-on session.
+            </p>
+            <p>
+              The hands-on starts with a guided walkthrough of the core
+              <a class="project-link" href="https://openads-project.github.io/" target="_blank" rel="noopener">OpenADS</a>
+              repositories and then moves to running
+              <a class="project-link" href="https://github.com/openads-project/openadsim" target="_blank" rel="noopener">OpenADSim</a>
+              in a prepared environment. It then introduces scenario-based
+              execution and a first benchmark workflow for calculating metrics
+              on perception modules.
+            </p>
           </div>
         </div>
         <div class="info-grid">
@@ -361,7 +370,7 @@
           </article>
           <article class="organizer-card">
             <h3>Raphael van Kempen</h3>
-            <p>RWTH Aachen University</p>
+            <p>Thinking Cars GmbH</p>
           </article>
           <article class="organizer-card">
             <h3>Christian Geller</h3>
