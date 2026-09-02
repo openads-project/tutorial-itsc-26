@@ -79,7 +79,7 @@ remove.
 | 11:30-11:40 | Welcome and Introduction | Scope, learning objectives, and setup | All organizers |
 | 11:40-12:00 | Presentation | Why Collaborative [OpenADS](https://openads-project.github.io/) Development? Motivation and system-level challenges | All organizers |
 | 12:00-12:30 | Presentation | [OpenADS](https://openads-project.github.io/) Reference Architecture: how [OpenADServices](https://openads-project.github.io/), [OpenADStack](https://github.com/openads-project/openadstack), [OpenADSim](https://github.com/openads-project/openadsim), and [OpenADSuite](https://openads-project.github.io/) work together | [OpenADS](https://openads-project.github.io/) organizing team |
-| 12:30-12:40 | Ecosystem Application | Data Foundations for Development and Testing | FZI Forschungszentrum Informatik |
+| 12:30-12:40 | Ecosystem Application | Harmonized Data as Enabler for Development and Testing | FZI Forschungszentrum Informatik |
 | 12:40-12:50 | Ecosystem Application | Benchmarking for Reliable Validation | Thinking Cars GmbH |
 | 12:50-13:00 | Ecosystem Application | Fleet Management in Practice | Starwit Technologies GmbH |
 | 13:00-14:00 | Break | Lunch Break | — |
