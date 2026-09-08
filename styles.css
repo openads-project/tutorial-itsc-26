@@ -41,6 +41,18 @@ a {
   color: inherit;
 }
 
+.project-link {
+  text-decoration-color: rgba(29, 78, 216, 0.42);
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 3px;
+}
+
+.project-link:hover,
+.project-link:focus-visible {
+  color: var(--blue-dark);
+  text-decoration-color: var(--blue-dark);
+}
+
 .site-header {
   position: sticky;
   top: 0;
@@ -588,10 +600,52 @@ p {
   color: var(--muted);
 }
 
+.schedule-row p a {
+  color: var(--blue-dark);
+  font-weight: 800;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+
 .schedule-row span {
   color: #343b46;
   font-size: 0.94rem;
   font-weight: 700;
+}
+
+.ecosystem-examples {
+  margin: 16px 0 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.ecosystem-examples li {
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface-muted);
+}
+
+.ecosystem-examples strong,
+.ecosystem-examples span {
+  display: block;
+}
+
+.ecosystem-examples strong {
+  line-height: 1.35;
+}
+
+.ecosystem-examples span {
+  margin-top: 8px;
+  color: var(--muted);
+  font-size: 0.84rem;
+}
+
+.schedule-row-break {
+  background: var(--surface-muted);
 }
 
 .schedule-row-featured {
@@ -697,7 +751,8 @@ p {
   .design-grid,
   .info-grid,
   .organizer-grid,
-  .schedule-row {
+  .schedule-row,
+  .ecosystem-examples {
     grid-template-columns: 1fr;
   }
 
