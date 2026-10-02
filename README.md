@@ -13,6 +13,15 @@ details.
 - `styles.css` contains the visual styling and responsive layout.
 - `images/` contains logos and [OpenADS](https://openads-project.github.io/)
   visual assets used by the page.
+- `2026-09_15_ITSC_OpenADS.pdf` is the downloadable tutorial slide deck.
+
+## Tutorial Materials
+
+- Video: <https://www.youtube.com/watch?v=xDkKu5G0FwI>
+- Slides: <https://openads-project.github.io/openads-tutorial-itsc-26.github.io/2026-09_15_ITSC_OpenADS.pdf>
+
+The slides URL points directly to the PDF and can be used from external pages,
+emails, and event listings.
 
 ## Local Preview
 
